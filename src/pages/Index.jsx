@@ -3,18 +3,7 @@ import { ArrowRight, CheckCircle, Star } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-20">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Revolutionize Your Workflow</h1>
-          <p className="text-xl mb-8">Empower your team with our cutting-edge productivity platform</p>
-          <Button size="lg" className="bg-pink-500 text-white hover:bg-pink-600">
-            Get Started <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-        </div>
-      </section>
-
+    <div className="flex flex-col">
       {/* Features Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">

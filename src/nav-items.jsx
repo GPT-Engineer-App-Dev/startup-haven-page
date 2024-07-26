@@ -1,4 +1,4 @@
-import { Home, Zap, BarChart2, HeadphonesIcon } from "lucide-react";
+import { Home, Zap, BarChart2, HeadphonesIcon, Users } from "lucide-react";
 import Index from "./pages/Index.jsx";
 
 /**
@@ -13,19 +13,25 @@ export const navItems = [
   },
   {
     title: "Features",
-    to: "/#features",
+    to: "/features",
     icon: <Zap className="h-4 w-4" />,
     page: <Index />,
   },
   {
-    title: "Testimonials",
-    to: "/#testimonials",
+    title: "Pricing",
+    to: "/pricing",
     icon: <BarChart2 className="h-4 w-4" />,
     page: <Index />,
   },
   {
+    title: "About",
+    to: "/about",
+    icon: <Users className="h-4 w-4" />,
+    page: <Index />,
+  },
+  {
     title: "Contact",
-    to: "/#contact",
+    to: "/contact",
     icon: <HeadphonesIcon className="h-4 w-4" />,
     page: <Index />,
   },
